@@ -1,0 +1,19 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <a class="breadcrumb-item" href="#!/skills">{{titles.skills}}</a>
+            <span class="breadcrumb-item active">{{titles.skillDetails}}</span>
+        </nav>
+        <a class="box skill">
+            <div class="name">{{vm.skillDetails.name}}</div>
+            <div class="descriptions">
+                <ul>
+                    <li ng-repeat="item in vm.skillDetails.descriptions">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+        </a>
+    </div>
+</div>

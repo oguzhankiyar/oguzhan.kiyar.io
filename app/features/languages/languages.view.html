@@ -1,0 +1,14 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <span class="breadcrumb-item active">{{titles.languages}}</span>
+        </nav>
+        <a class="box language" ng-repeat="language in vm.languages">
+            <div class="name">{{language.name}}</div>
+            <div class="level" ng-repeat="level in language.levels">
+                - {{level.key}}: {{level.value}}
+            </div>
+        </a>
+    </div>
+</div>

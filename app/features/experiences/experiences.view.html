@@ -1,0 +1,15 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <span class="breadcrumb-item active">{{titles.experiences}}</span>
+        </nav>
+        <h1 ng-show="vm.experiences.length == 0">Henüz bir deneyim eklenmedi.</h1>
+        <a class="box experience" ng-repeat="experience in vm.experiences" ng-href="#!/experiences/{{experience.key}}">
+            <div class="name">{{experience.title}}</div>
+            <div class="type">{{experience.company}}</div>
+            <div class="info">{{experience.fromDate}} - {{experience.toDate}}</div>
+            <div class="summary">{{experience.summary}}</div>
+        </a>
+    </div>
+</div>

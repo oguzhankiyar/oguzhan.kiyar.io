@@ -1,0 +1,74 @@
+﻿<html ng-app="app" ng-controller="defaultController as vm">
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <script type="text/javascript" src="assets/lib/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/1.6.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/1.6.5/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="assets/lib/angular/1.6.5/angular-animate.min.js"></script>
+    <script type="text/javascript" src="assets/lib/popper/1.12.5/umd/popper.min.js"></script>
+    <script type="text/javascript" src="assets/lib/bootstrap/4.0.0/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/google-analytics.js"></script>
+
+    <link rel="stylesheet" href="assets/lib/bootstrap/4.0.0/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/lib/bootstrap/4.0.0/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+    <div class="back-wrapper"></div>
+    <div class="page">
+        <div app-header></div>
+        <div class="inner" ng-view></div>
+    </div>
+
+    <script type="text/javascript" src="app/app.js"></script>
+
+    <!-- Load app javascript resources -->
+    <script type="text/javascript" src="app/modules/app.module.js"></script>
+    <script type="text/javascript" src="app/modules/app.core.js"></script>
+    <script type="text/javascript" src="app/modules/app.routes.js"></script>
+    <script type="text/javascript" src="app/modules/app.factories.js"></script>
+    <script type="text/javascript" src="app/modules/app.constants.js"></script>
+    <script type="text/javascript" src="app/modules/app.services.js"></script>
+    <script type="text/javascript" src="app/modules/app.controllers.js"></script>
+    <script type="text/javascript" src="app/modules/app.directives.js"></script>
+
+    <!-- Load common javascript resources -->
+    <script type="text/javascript" src="app/common/factories/storage.factory.js"></script>
+    <script type="text/javascript" src="app/common/constants/strings.constant.js"></script>
+
+    <!-- Load service resources -->
+    <script type="text/javascript" src="app/common/services/data.service.js"></script>
+    <script type="text/javascript" src="app/common/services/about.service.js"></script>
+    <script type="text/javascript" src="app/common/services/education.service.js"></script>
+    <script type="text/javascript" src="app/common/services/experience.service.js"></script>
+    <script type="text/javascript" src="app/common/services/language.service.js"></script>
+    <script type="text/javascript" src="app/common/services/project.service.js"></script>
+    <script type="text/javascript" src="app/common/services/skill.service.js"></script>
+
+    <!-- Load directive resources -->
+    <script type="text/javascript" src="app/common/directives/header/header.directive.js"></script>
+
+    <!-- Load feature javascript resources -->
+    <script type="text/javascript" src="app/layout/default.controller.js"></script>
+    <script type="text/javascript" src="app/layout/notfound.controller.js"></script>
+    <script type="text/javascript" src="app/features/home/home.controller.js"></script>
+    <script type="text/javascript" src="app/features/experiences/experiences.controller.js"></script>
+    <script type="text/javascript" src="app/features/experiences/experience-details.controller.js"></script>
+    <script type="text/javascript" src="app/features/projects/projects.controller.js"></script>
+    <script type="text/javascript" src="app/features/projects/project-details.controller.js"></script>
+    <script type="text/javascript" src="app/features/about/about.controller.js"></script>
+    <script type="text/javascript" src="app/features/languages/languages.controller.js"></script>
+    <script type="text/javascript" src="app/features/educations/educations.controller.js"></script>
+    <script type="text/javascript" src="app/features/skills/skills.controller.js"></script>
+    <script type="text/javascript" src="app/features/skills/skill-details.controller.js"></script>
+</body>
+
+</html>

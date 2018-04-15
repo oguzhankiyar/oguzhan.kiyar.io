@@ -1,0 +1,12 @@
+<div class="header">
+    <img class="logo" ng-src="{{header.photo}}" />
+    <div class="info">
+        <div class="name" ng-bind="header.name"></div>
+        <div class="title" ng-bind="header.title"></div>
+    </div>
+    <div class="links">
+        <a class="link" ng-repeat="link in header.links" href="{{link.url}}" title="{{link.name}}" target="_blank">
+            <img ng-src="{{link.image}}" />
+        </a>
+    </div>
+</div>

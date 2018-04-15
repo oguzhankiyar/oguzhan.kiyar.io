@@ -1,0 +1,416 @@
+{
+    "my": {
+        "photo": "assets/img/ok.png",
+        "name": "OĞUZHAN KİYAR",
+        "title": "Bilgisayar Mühendisi"
+    },
+
+    "about": {
+        "summary": "Liseye başladığım zamanlarda bir hobi olarak başladığım ve Erciyes Üniversitesi Bilgisayar Mühendisliği bölümünü seçmem ile hem hobim hem işim olarak yaptığım, yapacağım bir iş, yazılım.<br /><br />Hedefim dünyanın ileri gelen şirketlerinde çalışmak, mühendisliğin zirvesine ulaşmak ve ileride dünyada sözünü ettirecek bir şirket kurmak, teknolojiye yön vermek."
+    },
+
+    "experiences": [{
+            "title": "Yazılım Geliştirici",
+            "company": "VeriPark",
+            "summary": ".Net teknolojileri kullanılarak istenen yazılımların analizi, geliştirilmesi, test edilmesi, bakımının yapılması ve diğer tüm aşamalarının gerçekleştirilmesi",
+            "descriptions": [
+                "Geliştirilecek proje ve özelliklerin analiz, tasarımının ve veritabanının modellenmesinin yapılması",
+                "Sadakat yönetimi yazılımlarının geliştirilmesi",
+                "Ödeme, SMS, CRM ve çeşitli entegrasyonların gerliştirilmesi",
+                "Backoffice ekranlarının, raporlama geliştirmelerinin yapılması"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net Web Forms",
+                "Asp.Net MVC",
+                "Asp.Net Web Api",
+                "WCF Service",
+                "Microsoft SQL Server",
+                "T-SQL",
+                "Entity Framework",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "AngularJS"
+            ],
+            "fromDate": "Kasım 2016",
+            "toDate": "şu an",
+            "key": "veripark",
+            "showInMainPage": true
+        },
+        {
+            "title": "Yazılım Geliştirici",
+            "company": "Kayten Teknoloji",
+            "summary": "Beacon entegrasyonu ile lokasyon bazlı kampanya yönetimi sisteminin ve mobil uygulamalarının haberleştiği servislerin analizi, tasarımı ve geliştirilmesi",
+            "descriptions": [
+                "Beacon entegrasyonu ile lokasyon bazlı sadakat yönetimi sisteminin geliştirilmesi",
+                "Sistemi kullanacak mobil uygulamalar için web servislerin ve backoffice ekranlarının geliştirilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "Asp.Net Web Api",
+                "Microsoft SQL Server",
+                "T-SQL",
+                "Entity Framework",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "fromDate": "Ocak 2016",
+            "toDate": "Temmuz 2016",
+            "key": "kayten",
+            "showInMainPage": true
+        },
+        {
+            "title": "Web Yazılım Geliştirici",
+            "company": "Erciyes Üniversitesi",
+            "summary": "Erciyes Üniversitesi Kültür Merkezleri için kullanılan rezervasyon sisteminin analizi, tasarımı, geliştirilmesi ve sksd.erciyes.edu.tr web portalının yönetimi",
+            "descriptions": [
+                "sksd.erciyes.edu.tr web içerik portalının yönetimi",
+                "Kültür Merkezleri Rezervasyon Sisteminin geliştirilmesi (sabanci.erciyes.edu.tr)",
+                "Sistem yönetiminin sağlanacağı backoffice ekranlarının geliştirilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "Microsoft SQL Server",
+                "T-SQL",
+                "Entity Framework",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "fromDate": "Şubat 2015",
+            "toDate": "Haziran 2016",
+            "key": "erciyes",
+            "showInMainPage": true
+        },
+        {
+            "title": "Stajyer",
+            "company": "Microsoft Türkiye",
+            "summary": "Microsoft Yaz Okulu 2014 ile alanında uzman kişilerden yazılım geliştirme süreçleri, Asp.Net MVC ve Windows uygulama geliştirme ve Microsoft SQL Server eğitimleri",
+            "descriptions": [
+                "Yazılım Geliştirme Süreçleri Eğitimi",
+                "Asp.Net MVC Uygulama Geliştirme Eğitimi",
+                "Windows Uygulama Geliştirme Eğitimi",
+                "Windows Phone Uygulama Geliştirme Eğitimi",
+                "Microsoft SQL Server Eğitimi",
+                "Sektörün önde gelen şirket yöneticilerinden seminerler",
+                "Staj projesinin geliştirilmesi (Biletonly)"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "Windows App Development",
+                "Windows Phone App Development",
+                "Microsoft SQL Server",
+                "T-SQL",
+                "Entity Framework",
+                "SignalR"
+            ],
+            "fromDate": "Ağustos 2014",
+            "toDate": "Eylül 2014",
+            "key": "microsoft",
+            "showInMainPage": true
+        }
+    ],
+
+    "projects": [{
+            "name": "OgleYemegim.com",
+            "type": "Web App",
+            "summary": "Bölgesel mutfaklar tarafından hazırlanan menü ve yemeklerin müşterilere özelleştirilebilir ve düzenli şekilde ulaştırılmasını sağlayan web uygulaması",
+            "descriptions": [
+                "Sistem yöneticisi, mutfak yöneticisi, mutfak kasiyeri ve mutfak kuryesi kullanıcı rollerine özel kontrol paneline erişilebilmesi",
+                "Mutfak yöneticilerinin kendi mutfağında çalışan kasiyer ve kuryeler için üyelikler oluşturabilmesı",
+                "Mutfak yöneticilerinin ürünlerini, menülerini, menü kategorilerini, servis lokasyonlarını yönetebilmesi",
+                "Mutfak yöneticilerinin müşteri siparişlerini listeleyip detaylarını görüntüleyebilmesi, sipariş durumlarını güncelleyebilmesi",
+                "Mutfak kasiyerlerinin müşteri siparişlerini listeleyip detaylarını görüntüleyebilmesi, sipariş durumlarını güncelleyebilmesi, mutfağa yönlendirebilmesi",
+                "Mutfak kuryelerinin teslimatını yapacakları siparişleri listeleyip detaylarını görüntüleyebilmesi, sipariş durumlarını güncelleyebilmesi",
+                "Müşterilerin bulunduğu lokasyona yakın mutfakları listeleyebilmesi, haftalık ve günlük menülerini görüntüleyebilmesi",
+                "Müşterilerin istediği mutfaktan istediği mutfak menüsü veya kendi oluşturduğu menü siparişini verebilmesi",
+                "Müşterilerin verdiği siparişlerden indirim ve puan kazanabilmesi, bu puanı sonraki siparişlerinde kullanabilmesi",
+                "Müşterilerin sipariş ödemesini hesap bakiyesinden veya teslimatta öde seçeneği teslim alınca ödeyebilmesi",
+                "Müşterilerin siparişlerini listeleyip detaylarını görüntüleyebilmesi, son durumlarını öğrenebilmesi",
+                "Müşterilerin verdiği siparişler ve menüler hakkında yorum ve değerlendirme yapabilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "PostgreSQL",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Entity Framework",
+                "Simple Injector",
+                "Emit Mapper",
+                "Log4Net"
+            ],
+            "url": "go.ogzkyr.net/ogleyemegim",
+            "key": "ogleyemegim",
+            "showInMainPage": true
+        },
+        {
+            "name": "Sipsi.co",
+            "type": "Web App",
+            "summary": "Restoranların paket servis, masaya servis ve self servis siparişlerinin yönetimini yönetici, garson, aşçı, kasiyer, kurye arasında etkileşimli bir şekilde sağlayan web uygulaması",
+            "descriptions": [
+                "Restoran yöneticilerinin çalışan, bölüm, masa, kategori, ürün, ürün seçenekleri, sipariş ve müşteri yönetiminin özel bir kontrol panelinden erişilebilmesi",
+                "Yönetici, kasiyer, aşçı, garson ve kurye için farklı ekranların ve işlemlerin görüntülenebilmesi",
+                "Ürünler için ürün seçeneklerinin eklenebilmesi, ücretsiz veya ücretli olarak belirlenebilmesi",
+                "Bölümler ve masaların tek ekranda listelenebilmesi ve anlık olarak sipariş sayılarının görülebilmesi",
+                "Masa, Paket Servis ve Self Servis seçeneklerinin ayrılması",
+                "Yeni bir masaya sipariş ekleme veya mevcut masaya yeni siparişler ekleyebilme",
+                "Kategoriler ile ürünlerin ve ürün seçeneklerinin aynı ekrandan erişilip sipariş oluşturulabilmesi",
+                "Siparişlerin Açık ve Kapalı olarak listelenebilmesi, detaylarına erişilebilmesi",
+                "Siparişleri bölümlerine, masalarına veya son durumlarına göre filtreleyebilme",
+                "Siparişlerin mevcut durumlarının görüntülenebilmesi, durum güncellemelerinin yapılabilmesi",
+                "Siparişlerin ödemesinin parça parça veya tek seferde alınabilmesi",
+                "Müşteri kaydının yapılabilmesi ve siparişler ile ilişkilendirilebilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "Asp.Net Web Api",
+                "PostgreSQL",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "AngularJS",
+                "Bootstrap",
+                "SignalR",
+                "Entity Framework",
+                "Simple Injector",
+                "Emit Mapper",
+                "Log4Net"
+            ],
+            "url": "go.ogzkyr.net/sipsico",
+            "key": "sipsico",
+            "showInMainPage": true
+        },
+        {
+            "name": "Biletall Windows Phone App",
+            "type": "Mobile App",
+            "summary": "Biletall.com web servisleri kullanılarak kullanıcıların otobüs ve uçak biletlerini listelemesini, sorgulamasını, rezervasyon yapmasını ve satın almasını sağlayan resmi Biletall Windows Phone mobil uygulaması",
+            "descriptions": [
+                "Uçak ve otobüs seferlerini sorgulayabilmesi",
+                "Bulunan seferleri filtreleyebilmesi",
+                "Seferlerin detaylarını görüntüleyebilmesi",
+                "Rezervasyon yapabilmesi ve bilet satın alabilmesi",
+                "Mevcut biletleri ve rezervasyonları için sorgulama yapabilmesi, takvime ekleyebilmesi, paylaşabilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Windows Phone App Development",
+                "XAML",
+                "Web Service"
+            ],
+            "url": "go.ogzkyr.net/biletall",
+            "key": "biletall",
+            "showInMainPage": true
+        },
+        {
+            "name": "Sabanci Reservation System",
+            "type": "Web App",
+            "summary": "Seminer, konferans salonları gibi etkinlik alanlarının toplulukların veya kurumların düzenleyeceği etkinlikler için salon programının sorgulanması, başvurusunun yapılması ve yönetici onayına sunulmasını sağlayan web uygulaması",
+            "descriptions": [
+                "Kullanıcıların mevcut mekanların istediği tarihler arasındaki etkinlikleri listelenebilmesi",
+                "Etkinlik bilgilerini kaydederek rezervasyon yapabilmesi",
+                "Yapılan rezervasyonlarının durumunu sorgulayabilmesi",
+                "Daha önce yapılan tüm rezervasyonlarını listeleyebilmesi",
+                "Mekanlar hakkında detayları bilgilere ve fotoğraflara erişebilmesi",
+                "Yöneticilerin mekanlar, birimler, türler, etkinlikler gibi tüm bileşenlerin yönetimini yapabilmesi",
+                "Yöneticilerin etkinlikleri listeleyebilmesi, filtreleyebilmesi, takvim ve program görünümünde görüntüleyebilmesi",
+                "Yöneticilerin yeni etkinlikler oluşturabilmesi, detaylarını görüntüleyebilmesi",
+                "Yöneticilerin etkinlikleri onaylayabilmesi, reddedebilmesi, düzenleme talebi isteyebilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net MVC",
+                "Microsoft SQL Server",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "Entity Framework"
+            ],
+            "url": "go.ogzkyr.net/sabanci",
+            "key": "sabanci",
+            "showInMainPage": true
+        },
+        {
+            "name": "Mobisis",
+            "type": "Mobile App",
+            "summary": "Erciyes Üniversitesi öğrencilerinin dönemleri, dersleri, not bilgileri, dokümanları, yemekhane menüleri gibi bilgilere mobil olarak erişilmesini sağlayan Android ve Windows Phone mobil uygulaması",
+            "descriptions": [
+                "Öğrencilerin belge istekleri, ortalama gibi genel bilgilerine erişebilmesi",
+                "Öğrencilerin mevcut ve geçmiş dönemlerini listeleyip detaylarını görüntüleyebilmesi",
+                "Öğrencilerin dönemlere ait aldığı dersleri listeleyip kredi, not bilgilerinin görüntüleyebilmesi",
+                "Öğrencilerin ortalama hesaplaması yapabilmesinin sağlanması",
+                "Öğrencilerin açıklanan notları için bildirim alabilmesi"
+            ],
+            "tags": [
+                "C#",
+                "Asp.Net Web Api",
+                "MongoDB",
+                "Windows Phone App Development",
+                "XAML"
+            ],
+            "url": "go.ogzkyr.net/mobisis",
+            "key": "mobisis",
+            "showInMainPage": false
+        },
+        {
+            "name": "Kargo Takip",
+            "type": "Mobile App",
+            "summary": "Kullanıcıların birçok şirkete ait kargolarının durum ve hareketerine erişebilmesini sağlayan Windows Phone mobil uygulaması",
+            "description": "",
+            "tags": [
+                "C#",
+                "Asp.Net Web Api",
+                "MongoDB",
+                "Windows Phone App Development",
+                "XAML"
+            ],
+            "url": "go.ogzkyr.net/kargotakip",
+            "key": "kargotakip",
+            "showInMainPage": false
+        }
+    ],
+
+    "languages": [{
+        "name": "English",
+        "levels": [
+            {
+                "key": "Speaking",
+                "value": "mid"
+            },
+            {
+                "key": "Writing",
+                "value": "mid"
+            },
+            {
+                "key": "Reading",
+                "value": "mid"
+            }
+        ],
+        "showInMainPage": true
+    },
+	{
+        "name": "Turkish",
+        "levels": [
+            {
+                "key": "Speaking",
+                "value": "main"
+            },
+            {
+                "key": "Writing",
+                "value": "main"
+            },
+            {
+                "key": "Reading",
+                "value": "main"
+            }
+        ],
+        "showInMainPage": false
+    }],
+
+    "educations": [{
+            "program": "Computer Engineering",
+            "school": "Erciyes University, Kayseri",
+            "fromDate": "2011",
+            "toDate": "2016",
+            "description": "Ortalama: 3.06 / 4.00",
+            "showInMainPage": true
+        },
+        {
+            "program": "High School",
+            "school": "Cahit Zarifoglu High School, Istanbul",
+            "fromDate": "2007",
+            "toDate": "2011",
+            "description": "Ortalama: 75.21 / 100.00",
+            "showInMainPage": true
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Software Development",
+            "descriptions": [
+                "Software Analysis and Design",
+                "Object Oriented Principles",
+                "SOLID Principles",
+                "Source Control Systems (Git, TFS)"
+            ],
+            "key": "software-development",
+            "showInMainPage": true
+        },
+        {
+            "name": "C#",
+            "descriptions": [
+                "Asp.Net",
+                "Asp.Net MVC",
+                "Asp.Net Web API",
+                "Asp.Net Core",
+                "WCF Service",
+                "Windows & Windows Phone App",
+                "Xamarin App"
+            ],
+            "key": "csharp",
+            "showInMainPage": true
+        },
+        {
+            "name": "HTML / CSS / JavaScript",
+            "descriptions": [
+                "Bootstrap",
+                "AngularJS"
+            ],
+            "key": "html-css-js",
+            "showInMainPage": true
+        },
+        {
+            "name": "SQL",
+            "descriptions": [
+                "Microsoft SQL Server",
+                "T-SQL",
+                "MongoDB"
+            ],
+            "key": "sql",
+            "showInMainPage": true
+        }
+    ],
+
+    "interests": [{
+            "name": "Cycling",
+            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAxrSURBVHhe7Z0L0BZVGcdRULwhlGnmmAqkkqbgLY1IR8sbFJZQZHkpTKwMraFGhzIv05iTZYpNkqOCmqPjrdRult3MjCkig0pHS2Qs08oyb2Uq9Pvv/j/k+3bP7r57+Xjh3d/MM/t++/zP85z3fO+77+7Zc84OaWlpaWlpaWlpaWlpaWlpaWlp6ZBVq1ZttnLlyqPYns32Umwer89g+ya2G1rW0jQ09ijsfBr+Gbap4FuOzeRl+49pEhp4Ag29Imr1AqC9g80oF2+pExp3D+ypuKmLQ5nfsNnMYVrqgEbdEiv8zRgIZa9zqJY6oEE/57atwiSHa6kC/4zhWMeHqoEQ41aHbKkCDXmk27QSxHmOTftbUhUacm7cpLWwj8O2lIV/yMVuzMoQa4rDtpSFRrzA7VkZYr3VYVv6oF02omH2VONg47Ft7EoF/6lxc1aHWLs6bAuNsRt2Jfa02yeCv1eyWcxmDrap5ath356xshrE+QubDRy2d6EhxmLfxF6KmyYMmmVsxrjoath/f6woDzEudLjehDYYRiN8EtPpZmHQP4ht6TAR/D3d7lJQ/mns1Q7Xe9AG47DFUWuUgMa7wqEi2LUB+26KvZ1D2Q85VO/Bm5+JBbvGi0B5cZBDRrBb9z/uihXFocznHaK34I2rA/A6t0NliHU/NtzhI/Q3dhlW5PdIh6kTXbS34I3viz3gtqgNYp7jFP1g/17Y9di/LV0N+1ZgF2BbW95b8MY/hv3X7VEriou93qkSINkYv06nD+H1JLZj7eo9aIBRNMCNargmIYd+N9rrhyxoJB2iHoqbrHnIdZJTt6wJbaPTz1OxRg5RIcj3Tyyzi6XnoEF0FvUNt9GgQ+5rXZUWGmNX7D63zVqDOhzpKvUuNMI7aIsn4yZZu1AXDXTYwlXrLXjj+r04E8u9CKsKOUShUSXo5rmKvQNvegR2i9ugadTnNcF5PxPvCoPmJWxiVNFegPc8kje8KH77zUKe+djq7hF26Vt5c+wNg+b3a5Zbr+GNXu/33RjkUD/T+52yH7j1gXgwVoZBk9qtsl7Bm5zq99sY5NBNqHFOmQoa9VX9Jy6RDv7nMQ2ofndZo/wUtq9y2u6DCv6MCjYG8a9mU2hsFNqT41LNQp5nsY84bfdApbbGGjmjIq4+7bOcqjCUuyaO0Dzk6q5rHCp0hOtWK8R9CNvLaTqCcptjf3CoRiHPT522O6BCH3bdaoOY38Fe6RSloLy61591yMYgxwqn7A6o0xlx1arDm9Oh72yslhlMxDs2Ctwg5PiB03UHVGi261YJ4jyBTXbY2iDmZU5RO8R+EXuzU3UHVKjyKS8xlmGjHbJWiLsp9lWs0gCKgRDvcWya03QP1G0LKpZ57p8H5Z/DNLmmsQ5A4g8n/ji2B7J9W0XbB9vYobsP3uQXqWBliPMo1s6CrQqNqE7FpXGzVodYS7DuOjava9CA22G/dZtWhljiauw1TtHSKTSevil1XyU/ScwT2bYjSMpCA74L+3PcnvVAvO+z2ckpWjqFBtTghnlYbf1cxHoKO9opWspAA+6HaVWEWiCWSL0n0lIQ2lFzPjTTqd8sqLIQR/c0dnH4lrLQiDtit7tdK0Gcix22pSo05jRMc/dKQ/m7HG79hze7FaYFvXTL8gO8Ph5TI2psbr9pY2VRHOwSrNSPPuVq+4cQbig2hphHYO/h9Sy2M7Ap2M78PczSwYGEG5L4YEyjOTIHCuAXS7ELsX0dojTE0I/+vQ5fGMpUWqmHECMxNfztWGK+yJrgfwa7A5uNNTdWmFyaJ3Ey9qc4dedQ9l5Mn6rS/U+U7fvRL9wji/YsF+8Iyo3G1PtbauA35f7HZiGWOeCiYwh8CFZ52nAfxFqEjXf4UlBeP/qFPhzoprtYIdCrt1frLFbqme6DOC9gOkps7hTlINYwTGsPauJ9rRBSp6Of4GXpbg7KF7oXjm5nF8lFWuzXLlorxL0P28OpOoPympH6rThUc5Dja2yGOm1HUDZ3fjoarYNV6BCJdn/sH3HJZiC+BvAd5pTFoIBmov7QMRqHXOpk7Oibgn7bqHAOxP65i2SCTv+MWu8UhiCPjg6HOnU26AuNfa0bcp7nKhQC/QEumgm6r7hIEDRamuNvLjIokE+D5/KHLiH6uMvkglajxO/mpRYXPhqbiL0Fm8E+/SguiYQFQCumuhq5oH2vi2aCLnOFBfw6GhT+zUD7L+xaxcUmY7re0jXJB7ErsL9bmgvaB7DwtRrO12G5ZxZo9I9YgO3ookHQ7I7d5qKZoHuMTaE1cNEVGlJEzMzrHyQaSpQLcXTL+KO83MhFU8E/FJ0ujovORQl/g3HmNhyav2Id3zKl6Dspl9thiOYiF8kE3XwXCYJGp5uJ5Zj6wKfrjCIfQK00NMLFCqG82FUOEQSNhgclz7zwaXREJhTUKjqvdZGOoawWFcs8VuPXqJLcW7FovuciQdD8zvJU8F9qaRA0F7EpfSFL+bPiSGHQ3Gj5y7Az73aqbo8WPp8PQYyDsOcdMxX8ufMy0OReqKK5xvIEuLUoQeZpM/5b2VS+HUycy+OI6eDXT8DLh3/+0P3tzFM+/MdYXhlifdphU8GvK/BgQ8iHJrc7A80cF0mAe1asSoey+j2rZewXcdTtlLlOC/65lkcNlDmiEP+v2NQ2cIBYuujM7FLH/wbLE+DbzrJM0AUXpMSXea8Ff63zOYiXuUAa/nssjcRf9v5U8Nf27eiDmJlr5eKfbWkCfBMtyyN15hL7dSaU1WurKdqZZ1OdQjx9q4NLheDTCUh84sCL4FU5Ph3vR0bCGiHubnGGdPBfbmkCfO+zLAiaRyxPgG+0Zang/7qltULcvA/+/n3C4DkzvkWRqAGI/bjTJMD3Y8sS4MtdiRrNbZYnwHeoZangb2S5PuLm/TQc1ycMfn3x3RyJGoDwwTUTybvUsgT4cqcNoDnX8gT4jrEsFfyNTD0jdOalBXnjw7T/TgXR/EjUAMT+rtMkwPewZQnw3WlZEDTB4f/4NEg7CP79LK0VQu8QZwhyRiSkAsFHNeBLXrTUBLF/6TQJ8C2zLAG+3BtTaIIrv+HL/A3Cf7iltULoCXGGdMh7WiTkxSPelwDf3ZGoAYj9qNMkwJc6QRKXzpB0azQIfh2Cg6fp+A+Plengn2lprRB3slOkgv+ESMjrn8S7kiDS1Wztk2OIOzbOkA7+BZb2g/0jLAmCJnO2K36NDgmC/0pLa4XQ58cZ0iFv3EfIi0u8LxX8tY+RJeYch09FfksT4FtuWSr4M5f8RqKBEsGeCXzqbyt1FzML4gbXA8OnIU7x5QV/5F1F1jrQjJDqSsj8HcC/t+UJ8AWf94FPh7PcUR7oMjsn8R9vaS0QL+8pPostjRpIHW2ZfUP4C988yoNYmTfB8Gt6QrCHFd+2aFJ7jdlfaMEYdJmPqMD/MJtNLK8EcfS7lzlrLFFv9t0Qu9KhwGPY9paXhhha9CVzkj7+L1geBJkmZd6Jvegymip9Oi8L9bmh3QbLPDmAhZZXgjyZD4zBL/r3pLN/UuwOQ6El2FYu0jGE2InywTM6gV+NVHiyDVo9JnUM1vEQTnIVuYF0puWloPxJDhUEzbct7w+OH1kTBM0fsd1dpDCU0X2Q3PvNaIJ9WHVDOn3LXogzh1GdsI4WM6OYDlO5j1JCIw5wsf7g0KNHi1RQd/U0vTn3/je67THd/M8dKI1GAwgGdT118n3J6TNBp7ul03iZe0hEp0EPRWcaZx8WCfRZC3NBq6Est2DqitAhT6PCd8EOxE7BNOg48+7gmqA91tUYNEirxQwKL0+LVisPaVjoVGxvTENa9Zyrt+PWKM/CQ27R6uQle3EzBPqqadLkoELOQTtUDYTcutc/KIPk+iCfPqjFHtWKUMPvSz+9plOonO5d134h1gnUQQPKC3+bq0Ae3UPvbO4j5V5BoXviEM1BDj1mqJbz/apQl8OwWuY2hiC+hpHOcMrOoKDGFi1wrFohrj4l5/JyrX4zBkJ99ID72h8cI4ir34zqT5Qm0HSs0jy/NSGWhuUf7PBdB3WrNIVuIMQRV2H1nUESV2cjc7HSg5Ipuxw7hZfdu1zRGlDX8dT1Bral/zGU1RKE8b3yJiDHJpjWo70JeyLKmgEa3fNYyFb3Arrq8FQU6r0D9deH8RdY5nUafv3z9FTRc7DKAws7gsSaAKrHTByFaf7h6din2K8JkurdTDxRc12H96VBhW/EjsM0sVPv+TTsBEyzkQsNFm9ZZxgy5P9u2xqtTsB17wAAAABJRU5ErkJggg==",
+            "showInMainPage": true
+        },
+        {
+            "name": "Gömülü Programming",
+            "image": "data:image/png;base64,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",
+            "showInMainPage": true
+        }
+    ],
+
+    "links": [
+        {
+            "name": "Mail",
+            "url": "mailto:oguzhan@kiyar.io",
+            "image": "data:image/png;base64,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"
+        },
+        {
+            "name": "Linkedin",
+            "url": "http://linkedin.com/in/oguzhankiyar",
+            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAEn0lEQVR4Xu2di20UMRCGZyqADoAKgAogHUAFQAUkFQAVECogqYCkAkIFJBWQVEA6GPQLr7K53J3Hj731rX9LJ6Hg9eP/POP3rgpDUwpoU6VhYYRAGmsEBEIgjSnQWHFoIQTSmAKNFYcWshQgZvZORF6LyIvwa6xqsxTnUkTwO1PV85wSJFuImb0Rka8i8jQnw46euRaRI1U9S6lzEhAzA4jDlAwYV45V9cirgxuImR2LyEdvwox3T4FvqupqyC4gwU39oMhFCrz1uC8vkD/sM4pg4OFrVX0WSyUKxMzei8j3WEL8f5cCUSvxADkREQxxGcoVOFVVNPCNwQPkN+cZ5SRCCpeq+rIUiFUrDhMSVd1qBB4LIZCKDYlAKopZIykCqaFixTQIpKKYNZIikBoqVkyDQCqKWSOpFoDciMhnEblQVSxJi5lh6R57Kfj7kxoV3Zc05gaydWZqZo9FBKvI3awEzAnkl6rCCqLBzC5E5FU04gIizAnkQFUhdDT0tLw/G5BYxquUzKyLFYGYLpMtncQyJpD1jmMyICISXfsfikSXdQdnSiAY5h5EO5D/w+CfYRjsib7XcWKeY0ogEA6bWzgKc7tJRTPDbuTWTZu9JrBS+LmBoDiYDGKugWEwDpENE0MMczEx7Op8VwtAltTAi+tCIMUS1k2AQOrqWZwagRRLWDcBAqmrZ3FqBFIsYd0EZgMSy9i7dFIrHRG5wp5M+N2OFz7NbFiVxlUL/Pt5XQyjmfhcx4BqCVkhnVPMg4Y5kEfosIGGSW31LYFYfSabqccy3oGFwCIOvVsA60AFy8GFm0cekJ44MV2WCgRWARgbl2w84o1WFQClihvrEchJ7ECzF8YQL2w1Y9mneP+/OyCpYnvjmxkut+LgeVEgkCL57j9sZriWhnuW2YFAsqV7+GBwXVi9zu7kCaQikNDJY8vgU26yBJKr3IbngpX8zU22ayBhHoFDeOMdSQyFMYz9MpykTBXXzDDiyhoGdwvEzDyu5YOqYkaeFEru7HcJJPHmsPt0zGhegjWvrHv73QEJPh736nFu2BPgwp6lzOqDK8RJmeTQI5Cce/VJrotAEtph5sHtc1WFG3KH3KOvPVoIhqRedzUAcL32YkyLQJxtdyqhVrOfKp+lLr878d1Fi7kSAgkKtCIUgRDIeiufyld6WxwtZEUpAtltQ2Wn3phrJBACSXMB7EPYh7jmMFP1rXRZdFl0WdtMkBZCC6GF0EIc3XQrozm6LLosuiy6LLosib7Bmau961sJ+xD2IexDZulDHG67yyix4fVkLqtLtR2VJhCHSLuMQiC7VNuRF4E4RNpllBpAsi+n7LKie5LXlariNu/G4OnU+VGwerSrfBQs53h/vSosK6Xo5aCohUAPM8NV4OK3GCxL2+Ta3Khq9IWfXiDZV7iSi73cB6LWgaq7gAQr4ceJ8xtL3Y8TD+UouX2aX5e9f9INI8lCRlDgvmAt7FO2txV8WQiviJruA/fj/MML9AEH4+qsS/R73/YfVgAvTcO87SwVxJCUuw9ZoHhNVolAGsNCIATSmAKNFYcWQiCNKdBYcWghBNKYAo0V5x/phmWSVKDVfAAAAABJRU5ErkJggg=="
+        },
+        {
+            "name": "GitHub",
+            "url": "http://github.com/oguzhankiyar",
+            "image": "data:image/png;base64,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"
+        }
+    ]
+}

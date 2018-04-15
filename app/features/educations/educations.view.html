@@ -1,0 +1,16 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <span class="breadcrumb-item active">{{titles.educations}}</span>
+        </nav>
+        <a class="box education" ng-repeat="education in vm.educations">
+            <div class="name">{{education.program}}</div>
+            <div class="info">{{education.fromDate}} - {{education.toDate}}</div>
+            <div class="summary">
+                {{education.school}}
+                <br />{{education.description}}
+            </div>
+        </a>
+    </div>
+</div>

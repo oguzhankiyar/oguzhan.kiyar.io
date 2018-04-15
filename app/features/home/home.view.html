@@ -1,0 +1,72 @@
+<div class="wrapper row">
+    <div class="col col-lg-6">
+        <div class="section">
+            <a class="name" href="#!/experiences">{{titles.experiences}}</a>
+            <a class="box experience" ng-repeat="experience in vm.experiences" ng-href="#!/experiences/{{experience.key}}">
+                <div class="name">{{experience.title}}</div>
+                <div class="type">{{experience.company}}</div>
+                <div class="info">{{experience.fromDate}} - {{experience.toDate}}</div>
+                <div class="summary">{{experience.summary}}</div>
+            </a>
+        </div>
+        <div class="section">
+            <a class="name" href="#!/projects">{{titles.projects}}</a>
+            <a class="box project" ng-repeat="project in vm.projects" ng-href="#!/projects/{{project.key}}">
+                <div class="name">{{project.name}}</div>
+                <div class="type">{{project.type}}</div>
+                <div class="summary">{{project.summary}}</div>
+            </a>
+        </div>
+    </div>
+    <div class="col col-lg-6">
+        <div class="section">
+            <a class="name" href="#!/about">{{titles.about}}</a>
+            <a class="box about" href="#!/about">
+                <div class="summary" ng-bind-html="vm.about.summary"></div>
+            </a>
+        </div>
+        <div class="section">
+            <a class="name">{{titles.interests}}</a>
+            <div class="interests">
+            <a class="box interest" ng-repeat="interest in vm.interests">
+                <div>
+                    <img ng-src="{{interest.image}}" style="width: 32px;" />
+                    <div class="name">{{interest.name}}</div>
+                </div>
+            </a></div>
+        </div>
+        <div class="section">
+            <a class="name" href="#!/languages">{{titles.languages}}</a>
+            <a class="box language" ng-repeat="language in vm.languages" href="#!/languages">
+                <div class="name">{{language.name}}</div>
+                <div class="level" ng-repeat="level in language.levels">
+                    - {{level.key}}: {{level.value}}
+                </div>
+            </a>
+        </div>
+        <div class="section">
+            <a class="name" href="#!/educations">{{titles.educations}}</a>
+            <a class="box education" ng-repeat="education in vm.educations" href="#!/educations">
+                <div class="name">{{education.program}}</div>
+                <div class="info">{{education.fromDate}} - {{education.toDate}}</div>
+                <div class="summary">
+                    {{education.school}}
+                    <br />{{education.description}}
+                </div>
+            </a>
+        </div>
+        <div class="section">
+            <a class="name" href="#!/skills">{{titles.skills}}</a>
+            <a class="box skill" ng-repeat="skill in vm.skills" href="#!/skills/{{skill.key}}">
+                <div class="name">{{skill.name}}</div>
+                <div class="descriptions">
+                    <ul>
+                        <li ng-repeat="item in skill.descriptions">
+                            {{item}}
+                        </li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

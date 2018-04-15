@@ -1,0 +1,29 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <a class="breadcrumb-item" href="#!/experiences">{{titles.experiences}}</a>
+            <span class="breadcrumb-item active">{{titles.experienceDetails}}</span>
+        </nav>
+        <div class="box experience">
+            <div class="name">{{vm.experienceDetails.title}}</div>
+            <div class="type">{{vm.experienceDetails.company}}</div>
+            <div class="info">{{vm.experienceDetails.fromDate}} - {{vm.experienceDetails.toDate}}</div>
+            <div class="summary">{{vm.experienceDetails.summary}}</div>
+            <div class="descriptions">
+                <ul>
+                    <li ng-repeat="item in vm.experienceDetails.descriptions">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+            <div class="tags">
+                <ul>
+                    <li ng-repeat="item in vm.experienceDetails.tags">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

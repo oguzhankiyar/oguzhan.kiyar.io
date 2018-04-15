@@ -1,0 +1,14 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <span class="breadcrumb-item active">{{titles.projects}}</span>
+        </nav>
+        <h1 ng-show="vm.projects.length == 0">Henüz bir proje eklenmedi.</h1>
+        <a class="box project" ng-repeat="project in vm.projects" ng-href="#!/projects/{{project.key}}">
+            <div class="name">{{project.name}}</div>
+            <div class="type">{{project.type}}</div>
+            <div class="summary">{{project.summary}}</div>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div class="wrapper row">
+    <div class="section col-lg-12">
+        <nav class="breadcrumb">
+            <a class="breadcrumb-item" href="#!/">{{titles.home}}</a>
+            <a class="breadcrumb-item" href="#!/projects">{{titles.projects}}</a>
+            <span class="breadcrumb-item active">{{titles.projectDetails}}</span>
+        </nav>
+        <div class="box project">
+            <div class="name">{{vm.projectDetails.name}}</div>
+            <div class="type">{{vm.projectDetails.type}}</div>
+            <div class="info">
+                <a ng-href="http://{{vm.projectDetails.url}}" target="_blank">{{vm.projectDetails.url}}</a>
+            </div>
+            <div class="summary">{{vm.projectDetails.summary}}</div>
+            <div class="descriptions">
+                <ul>
+                    <li ng-repeat="item in vm.projectDetails.descriptions">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+            <div class="tags">
+                <ul>
+                    <li ng-repeat="item in vm.projectDetails.tags">
+                        {{item}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

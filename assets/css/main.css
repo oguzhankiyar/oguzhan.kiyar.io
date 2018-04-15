@@ -1,0 +1,318 @@
+@font-face {
+    font-family: Ubuntu Light;
+    src: url('../fonts/Ubuntu-L.ttf');
+    font-weight: bold;
+}
+
+@keyframes slideOutLeft {
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutBottom {
+    to {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideInTop {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+body {
+    background-color: firebrick;
+    font-family: 'Ubuntu Light';
+    font-size: 16px;
+    color: #f5f5f5;
+    text-shadow: #000 0 0 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ccc;
+}
+
+*::-webkit-scrollbar-track {
+    background: #444;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 2.5px;
+    background: rgba(255, 255, 255, .25);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .50);
+}
+
+a,
+a:visited,
+a:link,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    background-color: #404040;
+    box-shadow: #ccc 0 0 2.5px;
+    border-color: transparent;
+}
+
+.back-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 750px;
+    min-width: 500px;
+    height: 100%;
+    margin: auto;
+    background-color: #363636;
+    box-shadow: #000 0 0 50px;
+}
+
+.page {
+    position: relative;
+    display: table;
+    max-width: 750px;
+    min-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.header {
+    display: table;
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 2px solid #777;
+}
+
+.header .logo {
+    display: inline-table;
+    float: left;
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
+    margin: 5px 25px 5px 10px;
+    border: 2px solid #ccc;
+}
+
+.header .info {
+    display: table;
+    float: left;
+    margin-top: 10px;
+}
+
+.header .info .name {
+    font-weight: 500;
+    font-size: 187.5%;
+    margin: 25px 0 10px 0;
+}
+
+.header .info .title {
+    font-size: 125%;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.links {
+    display: inline-table;
+    float: right;
+}
+
+.links .link {
+    display: table;
+    padding: 5px;
+    margin: 2.5px 0;
+    opacity: .75;
+}
+
+.links .link img {
+    height: 32px;
+}
+
+.breadcrumb {
+    background-color: transparent !important;
+    padding: 5px 0;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #868e96;
+    padding: 2.5px;
+    font-size: 125%;
+}
+
+.breadcrumb .breadcrumb-item.active {
+    color: #fff;
+}
+
+.breadcrumb .breadcrumb-item.active::before {
+    content: '/\00a0';
+}
+
+.breadcrumb .breadcrumb-item:hover {
+    background-color: transparent;
+    box-shadow: transparent 0 0 0;
+}
+
+.inner {
+    position: absolute;
+    display: table;
+    width: 100%;
+    padding: 15px 15px 10px 15px;
+}
+
+.inner.ng-enter {
+    animation: slideInTop .8s both ease-in;
+    z-index: 5555;
+}
+
+.inner.ng-leave {
+    animation: slideOutBottom .7s both ease-in;
+    z-index: 6666;
+}
+
+.wrapper {
+    padding: 0 10px
+}
+
+.section>.name {
+    display: table;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    font-size: 125%;
+}
+
+.box {
+    position: relative;
+    display: table;
+    width: 100%;
+    background-color: #303030;
+    margin: 12.5px 0;
+    padding: 10px;
+    line-height: 1.5;
+    box-shadow: #000 0 0 2.5px;
+}
+
+.box .type {
+    float: left;
+    width: 100%;
+    font-size: 84.375%;
+    color: #ccc;
+}
+
+.box .info {
+    position: absolute;
+    float: right;
+    top: 10px;
+    right: 10px;
+    font-size: 75%;
+    color: #ccc;
+}
+
+.box .summary {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 78.125%;
+    color: #eee;
+}
+
+.box .name {
+    font-size: 93.75%;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.box .descriptions {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 78.125%;
+    color: #eee;
+}
+
+.box .descriptions ul li {
+    list-style: square;
+    margin-left: 15px;
+}
+
+.box .tags {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 78.125%;
+    color: #eee;
+}
+
+.box .tags ul li {
+    display: inline-table;
+    margin: 5px 10px 5px 0;
+    background: #404040;
+    border: 1px solid #666;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.language .level {
+    display: inline-table;
+    width: 32%;
+    font-size: 80%;
+}
+
+.project .url a {
+    padding: 5px;
+}
+
+.skill .descriptions {
+    margin-top: 5px;
+}
+
+.interests .interest {
+    display: inline-table;
+    float: left;
+    width: 48.5%;
+}
+
+.interests .interest:nth-child(2n+1) {
+    margin-right: 5px;
+}
+
+.interests .interest:nth-child(2n) {
+    margin-left: 5px;
+}
+
+.interests .interest .name {
+    display: table;
+    margin: 7.5px 0 0 0;
+    font-size: 78.125%;
+}
+
+.about .summary, .education .summary {
+    margin-top: 0;
+}

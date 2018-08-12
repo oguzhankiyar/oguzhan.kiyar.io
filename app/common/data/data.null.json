@@ -166,7 +166,7 @@
                 "Emit Mapper",
                 "Log4Net"
             ],
-            "url": "go.kiyar.io/ogleyemegim",
+            "url": "go.ogzkyr.net/ogleyemegim",
             "key": "ogleyemegim",
             "showInMainPage": true
         },
@@ -204,7 +204,7 @@
                 "Emit Mapper",
                 "Log4Net"
             ],
-            "url": "go.kiyar.io/sipsico",
+            "url": "go.ogzkyr.net/sipsico",
             "key": "sipsico",
             "showInMainPage": true
         },
@@ -225,7 +225,7 @@
                 "XAML",
                 "Web Service"
             ],
-            "url": "go.kiyar.io/biletall",
+            "url": "go.ogzkyr.net/biletall",
             "key": "biletall",
             "showInMainPage": true
         },
@@ -254,7 +254,7 @@
                 "Bootstrap",
                 "Entity Framework"
             ],
-            "url": "go.kiyar.io/sabanci",
+            "url": "go.ogzkyr.net/sabanci",
             "key": "sabanci",
             "showInMainPage": true
         },
@@ -276,7 +276,7 @@
                 "Windows Phone App Development",
                 "XAML"
             ],
-            "url": "go.kiyar.io/mobisis",
+            "url": "go.ogzkyr.net/mobisis",
             "key": "mobisis",
             "showInMainPage": false
         },
@@ -292,7 +292,7 @@
                 "Windows Phone App Development",
                 "XAML"
             ],
-            "url": "go.kiyar.io/kargotakip",
+            "url": "go.ogzkyr.net/kargotakip",
             "key": "kargotakip",
             "showInMainPage": false
         }

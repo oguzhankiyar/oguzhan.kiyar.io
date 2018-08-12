@@ -1,4 +1,4 @@
-{
+﻿{
     "my": {
         "photo": "assets/img/ok.png",
         "name": "OĞUZHAN KİYAR",
@@ -35,7 +35,7 @@
                 "AngularJS"
             ],
             "fromDate": "Kasım 2016",
-            "toDate": "şu an",
+            "toDate": "Mayıs 2018",
             "key": "veripark",
             "showInMainPage": true
         },
@@ -150,7 +150,7 @@
                 "Emit Mapper",
                 "Log4Net"
             ],
-            "url": "go.ogzkyr.net/ogleyemegim",
+            "url": "go.kiyar.io/ogleyemegim",
             "key": "ogleyemegim",
             "showInMainPage": true
         },
@@ -188,7 +188,7 @@
                 "Emit Mapper",
                 "Log4Net"
             ],
-            "url": "go.ogzkyr.net/sipsico",
+            "url": "go.kiyar.io/sipsico",
             "key": "sipsico",
             "showInMainPage": true
         },
@@ -209,7 +209,7 @@
                 "XAML",
                 "Web Service"
             ],
-            "url": "go.ogzkyr.net/biletall",
+            "url": "go.kiyar.io/biletall",
             "key": "biletall",
             "showInMainPage": true
         },
@@ -238,7 +238,7 @@
                 "Bootstrap",
                 "Entity Framework"
             ],
-            "url": "go.ogzkyr.net/sabanci",
+            "url": "go.kiyar.io/sabanci",
             "key": "sabanci",
             "showInMainPage": true
         },
@@ -260,7 +260,7 @@
                 "Windows Phone App Development",
                 "XAML"
             ],
-            "url": "go.ogzkyr.net/mobisis",
+            "url": "go.kiyar.io/mobisis",
             "key": "mobisis",
             "showInMainPage": false
         },
@@ -276,7 +276,7 @@
                 "Windows Phone App Development",
                 "XAML"
             ],
-            "url": "go.ogzkyr.net/kargotakip",
+            "url": "go.kiyar.io/kargotakip",
             "key": "kargotakip",
             "showInMainPage": false
         }
